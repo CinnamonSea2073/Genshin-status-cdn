@@ -1,0 +1,12 @@
+app/image/weekday/*
+app/image/wish/banner/character/*
+app/image/wish/screen/character/0/*
+app/image/wish/screen/character/4/*
+app/image/wish/screen/character/5/*
+app/image/wish/screen/weapon/3/*
+app/image/wish/screen/weapon/4/*
+*.pyc
+test.py
+test/*
+!**/.gitkeep
+error/*

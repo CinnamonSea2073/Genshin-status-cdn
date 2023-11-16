@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  cdn:
+    build: .
+    hostname: genshin.cdn
+    volumes:
+      - ./app:/usr/src/app
+    command: "sh start_script.sh"
+    env_file:
+      - github.env
+    networks:
+      - default
+    ports:
+      - 8080:8080
+    restart: always
+
+networks:
+  default:
